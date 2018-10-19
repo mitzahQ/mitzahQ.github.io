@@ -1,0 +1,121 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  
+  }
+    
+
+.container2 {
+  padding-bottom: 8rem;
+}
+ 
+ .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  filter: blur(150px);
+}
+
+header.startup {
+  background-image: url("photo.jpg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  z-index: 11;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header.startup h1  {
+ 
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: rgba(240, 240, 240 );
+  letter-spacing: 10px;
+  text-shadow: 0px 0px 4px white;
+  font-size: 4.8rem; 
+  color: rgb(255, 255, 255);
+  z-index: 11;
+  text-align: center;
+  justify-content: center;
+}
+
+h2 {
+  align-self: center;
+  z-index: 13;
+  text-transform: uppercase;
+  line-height: 50px;  
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-size: 22px;
+  color:  rgb(240, 240, 240);
+  font-family: 'K2D' , sans-serif ;
+}
+
+span.mountains {
+  font-weight: 800;
+  font-size: 5.4rem;
+  color: rgb(255, 255, 255);
+  z-index: 11;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 11;
+}
+
+.btn {
+    color:  rgb(240, 240, 240);
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid rgb(240, 240, 240);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    padding: .400rem .80rem;
+    font-size: 1.2rem;
+    line-height: 2;
+    border-radius: .70rem;
+  }
+
+ .btn:hover {
+   background-color:  rgba(240, 240, 240, 0.3);
+   border: 1px solid rgb(240, 240, 240);
+ }
+
+a:link {
+    text-decoration: none;
+}
+
+ a:visited {
+    text-decoration: none;
+
+}
+
+ a:hover {
+   color:  rgb(255, 255, 255); 
+   font-weight: 800; 
+   text-shadow: text-shadow: 0px 0px 26px rgba(255, 255, 255, 1);
+   text-decoration: none;
+}
+
+
+  
